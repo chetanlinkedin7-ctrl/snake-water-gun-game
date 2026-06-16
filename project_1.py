@@ -7,13 +7,13 @@ dicgame ={
 
     "snake":1,
     "water" :0,
-    "GUN":-1
+    "gun":-1
 }
 youstr = input("enter your Weapons : ")
 you = dicgame[youstr]
 print(you)
 
-revdic = {1:"snake",0:"water",-1:"GUN"}
+revdic = {1:"snake",0:"water",-1:"gun"}
 print(f"you chose {revdic[you]},\n computer choose {revdic[computer]}")
 
 if(computer==you):
